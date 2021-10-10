@@ -1,0 +1,30 @@
+{
+  "name": "projectkroak",
+  "version": "1.0.0",
+  "description": "Tabletop RPG Avatar Creator",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kristerran/projectKroak.git"
+  },
+  "author": "Kris Terran Baily",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kristerran/projectKroak/issues"
+  },
+  "homepage": "https://github.com/Kristerran/projectKroak#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
+    "express-session": "^1.17.2",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.7.0"
+  }
+}
