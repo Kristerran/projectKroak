@@ -1,22 +1,22 @@
 [
     {
       "option": "Paladin",
-      "image_src": "./assets/paladinColor.png",
+      "image_src": "./assets/paladinColor.PNG",
       "question_id": 1
     },
     {
-        "option": "Paladin is the only option",
-        "image_src": "./assets/baseColor.png",
+        "option": "Ranger",
+        "image_src": "./assets/rangerColor.PNG",
         "question_id": 1
       },
       {
-        "option": "Seriously choose paladin",
-        "image_src": "./assets/paladinColor.png",
+        "option": "Sorcerer",
+        "image_src": "./assets/sorcererColor.PNG",
         "question_id": 1
       },
       {
-        "option": "Please choose paladin!",
-        "image_src": "./assets/paladinColor.png",
+        "option": "Nothin",
+        "image_src": "./assets/baseColor.PNG",
         "question_id": 1
       }
   ]
