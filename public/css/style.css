@@ -46,12 +46,12 @@ header{
 #viewHolder{
     position: relative;
     width: 25vw;
-    height: 25vw;
+    height: 40vw;
     border: 2px solid black;
 }
 .viewImg{
     position: absolute;
-    object-fit: cover;
+    object-fit: contain;
     left: 0;
     right: 0;
     top: 0;
@@ -74,4 +74,3 @@ header{
     width: 100%;
     height: 25%;
 }
-

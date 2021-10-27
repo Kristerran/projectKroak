@@ -1,65 +1,22 @@
-{{!-- THE PILLAR --}}
 
 <div id='form'>
+    {{#each form}}
     <div class="formCard">
-        <label for="placeholder1">OPTON</label>
-        <select name="PLACEHOLDER1" id="placeholder1">
-            <option value="pH1">OPTION</option>
-            <option value="pH2">OPTION</option>
-            <option value="pH3">OPTION</option>
-            <option value="pH4">OPTION</option>
+        <label for="{{this.question}}">{{this.question}}</label>
+        <select name="{{this.question}}" id="{{this.question}}" onchange="changeFunc(this)">
+            {{#each this.Options}}
+            <option value='{"imgSrc":"{{image_src}}","docId":"{{question_id}}"}'>{{this.option}}</option>
+            {{/each}}
         </select>
     </div>
-    <div class="formCard">
-        <label for="placeholder2">OPTION</label>
-        <select name="PLACEHOLDER2" id="placeholder2">
-            <option value="pH1">OPTION</option>
-            <option value="pH2">OPTION</option>
-            <option value="pH3">OPTION</option>
-            <option value="pH4">OPTION</option>
-        </select>
-    </div>
-    <div class="formCard">
-        <label for="placeholder1">OPTION</label>
-        <select name="PLACEHOLDER3" id="placeholder3">
-            <option value="pH1">OPTION</option>
-            <option value="pH2">OPTION</option>
-            <option value="pH3">OPTION</option>
-            <option value="pH4">OPTION</option>
-        </select>
-    </div>
-    <div class="formCard">
-        <label for="placeholder1">OPTION</label>
-        <select name="PLACEHOLDER4" id="placeholder4">
-            <option value="pH1">OPTION</option>
-            <option value="pH2">OPTION</option>
-            <option value="pH3">OPTION</option>
-            <option value="pH4">OPTION</option>
-        </select>
-    </div>
-    <div class="formCard">
-        <label for="placeholder1">OPTION</label>
-        <select name="PLACEHOLDER5" id="placeholder5">
-            <option value="pH1">OPTION</option>
-            <option value="pH2">OPTION</option>
-            <option value="pH3">OPTION</option>
-            <option value="pH4">OPTION</option>
-        </select>
-    </div>
-    <div class="formButtons">
-        <button id='lastPage'><</button>
-                <button id='nextPage'>></button>
-    </div>
+    {{/each}}
 </div>
 <div id='leftColumn'>
-    <div id='viewHolder'> </div>
+    <div id='viewHolder'>
+        {{#each form}}
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Blank.png" alt="" class="viewImg" id="{{this.id}}">
+        {{/each}}
+    </div>
     <div id='saveEtcButtons'></div>
 </div>
-
-{{#if user}}
-<div>
-    <h1>Welcome {{user.username}}</h1>
-
-</div>
-{{/if}}
 <script src="../javascript/virtuefig.js"></script>

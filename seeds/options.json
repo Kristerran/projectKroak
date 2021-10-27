@@ -1,0 +1,22 @@
+[
+    {
+      "option": "Paladin",
+      "image_src": "./assets/paladinColor.png",
+      "question_id": 1
+    },
+    {
+        "option": "Paladin is the only option",
+        "image_src": "./assets/baseColor.png",
+        "question_id": 1
+      },
+      {
+        "option": "Seriously choose paladin",
+        "image_src": "./assets/paladinColor.png",
+        "question_id": 1
+      },
+      {
+        "option": "Please choose paladin!",
+        "image_src": "./assets/paladinColor.png",
+        "question_id": 1
+      }
+  ]

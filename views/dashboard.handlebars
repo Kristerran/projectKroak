@@ -1,0 +1,12 @@
+<h1 class="text-center">
+    Dashboard
+</h1>
+
+{{#each Fig}}
+<div class="card mx-auto mt-1 p-3 border" style="width: 50rem;">
+    <h2>
+        {{this.name}}
+    </h2>
+        {{this.template_literal}}
+<div>
+    {{/each}}
