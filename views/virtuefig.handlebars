@@ -3,7 +3,7 @@
     {{#each form}}
     <div class="formCard">
         <label for="{{this.question}}">{{this.question}}</label>
-        <select name="{{this.question}}" id="{{this.question}}" onchange="changeFunc(this)">
+        <select name="{{this.question}}" id="{{this.question}}" "slot":"{{@index}}" onchange="changeFunc(this)">
             {{#each this.Options}}
             <option value='{"imgSrc":"{{image_src}}","docId":"{{question_id}}"}'>{{this.option}}</option>
             {{/each}}
