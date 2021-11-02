@@ -1,9 +1,8 @@
-
-<div id='form'>
+<div class="container" id='form'>
     {{#each form}}
     <div class="formCard">
         <label for="{{this.question}}">{{this.question}}</label>
-        <select name="{{this.question}}" id="{{this.question}}" "slot":"{{@index}}" onchange="changeFunc(this)">
+        <select class="custom-select" name="{{this.question}}" id="{{this.question}}" "arraySlot":"{{@index}}" onchange="changeFunc(this)">
             {{#each this.Options}}
             <option value='{"imgSrc":"{{image_src}}","docId":"{{question_id}}"}'>{{this.option}}</option>
             {{/each}}
@@ -11,7 +10,7 @@
     </div>
     {{/each}}
 </div>
-<div id='leftColumn'>
+<div class="container" id='leftColumn'>
     <div id='viewHolder'>
         <img src="./assets/baseColor.PNG" alt="baseChar" class="viewImg"id="base">
         {{#each form}}
