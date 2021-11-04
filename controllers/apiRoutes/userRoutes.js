@@ -28,13 +28,7 @@ router.get('/:id', async (req, res) => {
 router.post('/register', async (req, res) => {
   try {
     const userData = await User.create(req.body);
-
-    req.session.save(() => {
-      req.session.user = userData.id;
-      req.session.logged_in = true;
-
-      res.status(200).redirect('/');
-    });
+    res.status(200).redirect('/login');
   } catch (err) {
     res.status(400).json(err);
   }
@@ -80,7 +74,8 @@ router.post('/login', async (req, res) => {
 router.post('/logout', (req, res) => {
   if (req.session.logged_in) {
     req.session.destroy(() => {
-      res.status(204).end();
+      res.status(204);
+      res.redirect('/')
     });
   } else {
     res.status(404).end();
