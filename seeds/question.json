@@ -6,7 +6,8 @@
     "question": "Character Class"
   },
   {
-    "question": "Character Background"
+    "question": "Character Background",
+    "background": true
   }
 ]
 

@@ -16,6 +16,10 @@ Question.init(
             type: DataTypes.STRING,
             allowNull: false,
         },
+        background: {
+            type: DataTypes.BOOLEAN,
+            allowNull: true
+        }
     },
     {
         sequelize,

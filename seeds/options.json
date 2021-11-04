@@ -109,5 +109,16 @@
     "option": "Wizard",
     "image_src": "./assets/sorcererColor.PNG",
     "question_id": 2
+  },
+  {
+    "option": "background1",
+    "image_src": "./assets/backgrounds/9DSFGl.jpg",
+    "question_id": 3
+  },
+  {
+    "option": "background2",
+    "image_src": "./assets/backgrounds/9DSFGl.jpg",
+    "question_id": 3
   }
+  
 ]
