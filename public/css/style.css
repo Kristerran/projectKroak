@@ -1,6 +1,3 @@
-*{
-    border: 1px solid grey;
-}
 body{
     height: 100vh;
 }
@@ -11,18 +8,23 @@ main{
     justify-content: space-between;
 }
 #form{
-    height: 50%;
+    height: 100%;
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content:start;
     overflow-y: auto;
+    border: 1px solid grey;
+    border-radius: 10px;
+    
 }
 .formCard{
     display: flex;
     flex-direction: column;
     height: 30px;
     margin-bottom: 40px;
+    border: 1px solid grey;
+    border-radius: 10px;
 }
 #leftColumn{
     width: 50%;
@@ -32,10 +34,14 @@ main{
     width: 100%;
     margin: auto;
     height: 80%;
+    border: 4px solid grey;
+    border-radius: 10px 10px 0px 0px;
 }
 #saveEtcButtons{
     width: 100%;
-    height: 20%
+    height: 20%;
+    border: 1px solid grey;
+    border-radius: 0px 0px 10px 10px;
 }
 .viewImg{
     position: absolute;
@@ -50,48 +56,3 @@ main{
     width: 100%;
     object-fit: cover;
 }
-/* footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 50px;
-} */
-/*
-#form{
-    border: 1px solid grey;
-    width: 30%;
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    overflow-y: auto;
-}
-.formCard{
-    display: flex;
-    flex-direction: column;
-    height: 20px;
-    margin-top: 20px;
-    margin-bottom: 20%;
-}
-#viewHolder{
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-.viewImg{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    width: 100%;
-    border: 5px solid grey;
-}
-#leftColumn{
-    width: 70%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-#saveEtcButtons{
-    width: 100%;
-    height: 25%;
-}  */
