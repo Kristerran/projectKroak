@@ -1,4 +1,3 @@
-
 <div class="container" id='form'>
     {{#each form}}
     <div class="formCard">
@@ -13,12 +12,12 @@
 </div>
 <div class="container" id='leftColumn'>
     <div id='viewHolder'>
-        <img src="./assets/baseColor.PNG" alt="baseChar" class="viewImg"id="base">
+        <img src="./assets/CharacterLayers/Paint Layer 5.PNG" alt="baseChar" class="viewImg"id="base">
         {{#each form}}
         {{#if this.background}}
-        <img src="/assets/Backgrounds/9DSFGl.jpg" alt="Layer {{this.question}}" class="backgroundImg" id="{{this.id}}">
+        <img src="./assets/Backgrounds/9DSFGl.jpg" alt="Layer {{this.question}}" class="backgroundImg" id="{{this.id}}">
         {{else}}
-        <img src="./assets/blank.png" alt="Layer {{this.question}}" class="viewImg" id="{{this.id}}">
+        <img src="./assets/CharacterLayers/blank.png" alt="Layer {{this.question}}" class="viewImg" id="{{this.id}}">
         {{/if}}
         {{/each}}
     </div>

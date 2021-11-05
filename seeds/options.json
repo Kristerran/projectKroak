@@ -44,70 +44,64 @@
     "image_src": "./assets/baseColor.PNG",
     "question_id": 1
   },
-
-  {
-    "option": "Artificer",
-    "image_src": "./assets/sorcererColor.PNG",
-    "question_id": 2
-  },
   {
     "option": "Barbarian",
-    "image_src": "./assets/sorcererColor.PNG",
+    "image_src": "./assets/CharacterLayers/Paint Layer 10.PNG",
     "question_id": 2
   },
   {
     "option": "Bard",
-    "image_src": "./assets/sorcererColor.PNG",
+    "image_src": "./assets/CharacterLayers/Paint Layer 11.PNG",
     "question_id": 2
   },
   {
     "option": "Cleric",
-    "image_src": "./assets/sorcererColor.PNG",
+    "image_src": "./assets/CharacterLayers/Paint Layer 12.PNG",
     "question_id": 2
   },
   {
     "option": "Druid",
-    "image_src": "./assets/sorcererColor.PNG",
+    "image_src": "./assets/CharacterLayers/Paint Layer 13.PNG",
     "question_id": 2
   },
   {
     "option": "Fighter",
-    "image_src": "./assets/sorcererColor.PNG",
+    "image_src": "./assets/CharacterLayers/Paint Layer 14.PNG",
     "question_id": 2
   },
   {
     "option": "Monk",
-    "image_src": "./assets/sorcererColor.PNG",
+    "image_src": "./assets/CharacterLayers/Paint Layer 15.PNG",
     "question_id": 2
   },
   {
     "option": "Paladin",
-    "image_src": "./assets/paladinColor.PNG",
+    "image_src": "./assets/CharacterLayers/Paint Layer 4.PNG",
     "question_id": 2
   },
   {
     "option": "Ranger",
-    "image_src": "./assets/rangerColor.PNG",
+    "image_src": "./assets/CharacterLayers/Paint Layer 9.PNG",
     "question_id": 2
   },
   {
     "option": "Rogue",
-    "image_src": "./assets/baseColor.PNG",
+    "image_src": "./assets/CharacterLayers/Paint Layer 16.PNG",
     "question_id": 2
   },
   {
     "option": "Sorcerer",
-    "image_src": "./assets/sorcererColor.PNG",
+    "image_src": "./assets/CharacterLayers/Paint Layer 17.PNG",
     "question_id": 2
   },
   {
     "option": "Warlock",
-    "image_src": "./assets/sorcererColor.PNG",
+    "image_src": "./assets/CharacterLayers/Paint Layer 18.PNG",
     "question_id": 2
   },
   {
     "option": "Wizard",
-    "image_src": "./assets/sorcererColor.PNG",
+    "image_src": "./assets/CharacterLayers/Paint Layer 7.PNG",
     "question_id": 2
   },
   {
