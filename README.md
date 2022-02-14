@@ -1,5 +1,5 @@
 # Virtuefig (Project Kroak)
-![Screenshot of deployed site](<img width="960" alt="image" src="https://user-images.githubusercontent.com/81344693/153944885-d9e25f54-fce2-4324-989b-4c058179d1d8.png">)
+![Screenshot of deployed site](https://user-images.githubusercontent.com/81344693/153942583-b3be67bc-f8bd-4972-a36e-a095adcb9a0c.png")
 ## Link to deployed project:
 https://www.virtuefig.com
 
